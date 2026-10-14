@@ -90,6 +90,7 @@ Step-by-step playbooks that run on the Award Travel Finder tools. Claude picks t
 | `weekly-deal-review` | Weekly digest of bonuses, points sales and seats on your routes |
 | `set-up-alerts` | Route monitors, hotel price tracking and standing orders |
 | `cancel-or-change-award` | Cancel or change fee, where points go, and whether to rebook |
+| `find-my-bookings-and-balances` | Find bookings and points balances through your own email and browser connectors |
 
 ## Coverage
 
@@ -146,7 +147,7 @@ mcp/
     compare-programs.md  # /atf:compare-programs
   skills/
     award-travel/        # Activates on award-travel questions
-    plan-award-trip/     # ...and the 14 task skills listed above
+    plan-award-trip/     # ...and the 15 task skills listed above
   openclaw/
     SKILL.md             # OpenClaw-flavoured variant of the same skill
 ```
