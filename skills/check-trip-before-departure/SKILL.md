@@ -34,7 +34,10 @@ The tools named below are on the Award Travel Finder MCP connector. If they are 
 
 ## 5. Wifi
 
-- Call `sw_get_flight_wifi` for the flight.
+- If the flight number and date are known, call `sw_get_wifi_facts` for the flight and date. Otherwise call `sw_get_flight_wifi` for the flight.
+- Quote the answer sentence and the data_as_of date.
+- Say a flight uses Starlink only when the verdict is starlink or mostly_starlink. The confidence_level field is data coverage, not certainty.
+- If the verdict is unknown or confidence_level is none, say there is not enough data yet. Do not guess a provider.
 
 ## 6. Reprice check
 
