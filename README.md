@@ -4,13 +4,23 @@ Search award flight availability, compare loyalty programs, and find the best po
 
 **Works with Claude Code, Claude Desktop, Cursor, Windsurf, ChatGPT, Grok, Antigravity, and any MCP-compatible client.**
 
+## Quick start
+
+```
+/plugin marketplace add AwardTravelFinder/mcp
+/plugin install award-travel-finder@award-travel-finder
+/award-travel-finder:setup
+```
+
+Other clients (Codex, Cursor, ChatGPT, Gemini): tell your agent: Read https://awardtravelfinder.com/setup.md and follow it to set up Award Travel Finder.
+
 ## Quick install
 
 ### Claude Code plugin (recommended)
 
 ```
 /plugin marketplace add AwardTravelFinder/mcp
-/plugin install award-travel-finder
+/plugin install award-travel-finder@award-travel-finder
 ```
 
 ### Gemini CLI / Antigravity
@@ -76,6 +86,7 @@ Step-by-step playbooks that run on the Award Travel Finder tools. Claude picks t
 
 | Skill | What it does |
 |-------|--------------|
+| `setup` | Connect your account, save your points and cards, run a first award search |
 | `plan-award-trip` | Route and dates to a bookable award, with transfer path, hold plan and booking steps |
 | `where-can-my-points-take-me` | 3-5 award trips you can afford with the points you hold |
 | `book-award-step-by-step` | Safe booking checklist: confirm space, hold, transfer, ticket |

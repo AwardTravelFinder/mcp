@@ -1,7 +1,7 @@
 {
   "name": "award-travel-finder",
   "description": "Search award flight availability across 28 airlines, award-chart pricing for 23 loyalty programs, and award nights at Marriott, Hilton, IHG and Hyatt. 127 tools, OAuth sign-in, no API key.",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "author": {
     "name": "Award Travel Finder",
     "url": "https://awardtravelfinder.com"
