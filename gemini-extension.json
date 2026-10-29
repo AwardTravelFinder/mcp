@@ -1,6 +1,6 @@
 {
   "name": "award-travel-finder",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "description": "Award flight search: award seat availability across 28 airlines, award-chart pricing for 23 loyalty programs, transfer-path comparison, and award nights at Marriott, Hilton, IHG and Hyatt.",
   "mcpServers": {
     "awardtravelfinder": {

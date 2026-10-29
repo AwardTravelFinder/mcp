@@ -1,6 +1,6 @@
 {
   "name": "award-travel-finder",
-  "version": "1.1.0",
+  "version": "1.3.0",
   "description": "Award Travel Finder plugin for ChatGPT and Codex. Search award flight availability across 28 airline programmes, award-chart pricing for 23 loyalty programs, transfer paths, elite-status progress and award nights at Marriott, Hilton, IHG and Hyatt.",
   "author": {
     "name": "Award Travel Finder",
