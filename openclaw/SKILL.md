@@ -10,7 +10,7 @@ Search award flight availability and compare loyalty program award charts via th
 
 ## Setup
 
-Free with a free awardtravelfinder.com account — 50 searches/month. On first tool call the client opens your browser to sign up via OAuth (~30 seconds). Paid tiers (150/month and up) at [awardtravelfinder.com/pricing](https://awardtravelfinder.com/pricing).
+Sign in with an awardtravelfinder.com account. On first tool call the client opens your browser to sign up via OAuth (~30 seconds).
 
 ### Claude Code (recommended)
 
@@ -134,4 +134,3 @@ Uses `search_hybrid`.
 - [Award Travel Finder for Claude Code](https://awardtravelfinder.com/claude) — Plugin landing page
 - [Award Travel Finder](https://awardtravelfinder.com)
 - [MCP Server Docs](https://mcp.awardtravelfinder.com)
-- [Pricing & API Keys](https://awardtravelfinder.com/pricing)

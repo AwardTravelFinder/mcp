@@ -15,7 +15,7 @@
   "interface": {
     "displayName": "Award Travel Finder",
     "shortDescription": "Find award flights with points",
-    "longDescription": "Search award seat availability across 28 airline programmes in a single query and look up award-chart pricing for 23 loyalty programs. Compare transfer paths from credit-card points into airline programs, track elite-status progress, keep points balances and bookings in one place, and find award nights at Marriott, Hilton, IHG and Hyatt. Open it from the sidebar to see your balances, upcoming trips and route alerts. Sign in with your Award Travel Finder account in the browser; a free account covers everyday trip planning.",
+    "longDescription": "Search award seat availability across 28 airline programmes in a single query and look up award-chart pricing for 23 loyalty programs. Compare transfer paths from credit-card points into airline programs, track elite-status progress, keep points balances and bookings in one place, and find award nights at Marriott, Hilton, IHG and Hyatt. Open it from the sidebar to see your balances, upcoming trips and route alerts. Sign in with your Award Travel Finder account in the browser.",
     "developerName": "Merchant Software Solutions Limited",
     "category": "Travel",
     "capabilities": ["Interactive", "Read", "Write"],
