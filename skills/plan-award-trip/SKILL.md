@@ -8,7 +8,7 @@ version: 1.0.0
 
 The tools named below are on the Award Travel Finder MCP connector. If they are not available, tell the user to connect https://mcp.awardtravelfinder.com/mcp (setup: https://awardtravelfinder.com/developers/mcp).
 
-> **Plan:** needs Premium: `search_monthly_availability`, `search_multi_passenger`, `search_hybrid`, `plan_trip`, `compare_transfer_options`, `add_flight_booking`. If the user is on the free plan, tell them before you call these tools, and use the free steps where the skill gives one.
+> **Plan:** may not be included in every account plan: `search_monthly_availability`, `search_multi_passenger`, `search_hybrid`, `plan_trip`, `compare_transfer_options`, `add_flight_booking`. If a tool reports that it is not included in the account's plan, tell the user and use the other steps where the skill gives one.
 
 Goal: one recommended award the user can book today, plus one fallback.
 
@@ -33,7 +33,7 @@ You need origin, destination, dates, cabin and passengers.
 - Month or flexible dates: call `search_monthly_availability` for the 2-3 most likely airlines.
 - 2 or more passengers: use `search_multi_passenger` instead, so single-seat results drop out.
 - Premium cabin with no good award: call `search_hybrid` for a cash + award split.
-- If the user is Premium, `plan_trip` runs search + ranking in one call. Use it first, then verify with the tools above.
+- If `plan_trip` is available for the account, it runs search + ranking in one call. Use it first, then verify with the tools above.
 
 ## 4. Pick the best option
 

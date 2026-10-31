@@ -8,7 +8,7 @@ version: 1.0.0
 
 The tools named below are on the Award Travel Finder MCP connector. If they are not available, tell the user to connect https://mcp.awardtravelfinder.com/mcp (setup: https://awardtravelfinder.com/developers/mcp).
 
-> **Plan:** needs Premium: `update_points_balance`, `create_route_monitor` beyond the first monitor. If the user is on the free plan, tell them before you call these tools, and use the free steps where the skill gives one.
+> **Plan:** may not be included in every account plan: `update_points_balance`, `create_route_monitor` beyond the first monitor. If a tool reports that it is not included in the account's plan, tell the user and use the other steps where the skill gives one.
 
 Goal: a connected account, saved profile data and one real award result in a few minutes.
 
@@ -60,7 +60,7 @@ Tell the user they can answer in part, and that screenshots work.
 - If the user wants alerts, ask once to confirm the route, cabin and date range.
 - Call `list_route_monitors` first. Do not create a duplicate.
 - Call `create_route_monitor` for the route.
-- If the call returns a paywall, show the upgrade link it returns.
+- If the call reports a limit, tell the user.
 
 ## Output format
 

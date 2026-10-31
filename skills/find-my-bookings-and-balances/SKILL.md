@@ -6,7 +6,7 @@ version: 1.0.0
 
 # Find my bookings and points balances
 
-> **Plan:** needs Premium: `import_booking`, `update_points_balance`, `import_balances_from_image`, `list_hotel_bookings`. If the user is on the free plan, tell them before you search.
+> **Plan:** may not be included in every account plan: `import_booking`, `update_points_balance`, `import_balances_from_image`, `list_hotel_bookings`. If the tool reports that it is not included in the account's plan, tell the user.
 
 > **Do not over-promise:** do not offer to schedule or do something later unless a real tool exists for it. Call `list_points_balances` before `update_points_balance` and reuse its program slugs.
 

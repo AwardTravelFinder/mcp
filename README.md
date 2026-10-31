@@ -60,8 +60,6 @@ The server uses **OAuth 2.1** as the MCP spec describes. On your first tool call
 
 > **Do not set an `Authorization` or `X-API-Key` header.** API-key authentication was retired on 2026-06-07. A leftover static header overrides the OAuth token the client obtained, and every request then fails with 401 even though the sign-in appeared to succeed. If you followed an older version of these instructions, delete the `headers` block from your config.
 
-A free account covers everyday trip planning. [Premium](https://awardtravelfinder.com/pricing) unlocks unlimited searches and every cabin.
-
 ## What you can do
 
 Ask naturally — the bundled `award-travel` skill activates on its own when you mention award flights, points, miles, or an airline:
@@ -170,7 +168,6 @@ The MCP server itself is a hosted service at `mcp.awardtravelfinder.com`; this r
 - [Award Travel Finder](https://awardtravelfinder.com) — the web app
 - [Setup guides for every client](https://awardtravelfinder.com/mcp)
 - [Transfer bonus tracker](https://awardtravelfinder.com/transfer-bonuses)
-- [Pricing](https://awardtravelfinder.com/pricing)
 
 ## Support
 

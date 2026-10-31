@@ -67,8 +67,8 @@ seconds and needs no payment card. After they authorize, the call completes.
 
 ## 4. Set expectations
 
-- A free account covers everyday trip planning. Unlimited searches and every
-  cabin are on [Premium](https://awardtravelfinder.com/pricing).
+- Some tools may not be included in every account plan. If a tool reports that
+  it is not included, tell the user and continue with the other steps.
 - Award inventory is genuinely sparse. An empty result usually means there are no
   seats on that route and date, not that the search failed. Suggest nearby dates
   or a different airline rather than retrying the identical query.
