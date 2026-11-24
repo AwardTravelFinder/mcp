@@ -1,6 +1,12 @@
 ---
 description: Search award flight availability across airlines
 argument-hint: "[airline] [from] [to] [date-or-month]"
+allowed-tools:
+  - mcp__awardtravelfinder__search_availability
+  - mcp__awardtravelfinder__search_monthly_availability
+  - mcp__awardtravelfinder__search_all_airlines
+  - mcp__awardtravelfinder__search_hybrid
+  - mcp__awardtravelfinder__get_pricing
 ---
 
 # Search Award Flights

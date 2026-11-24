@@ -18,7 +18,5 @@
     "loyalty",
     "aviation"
   ],
-  "version": "1.3.0",
-  "privacyPolicyUrl": "https://awardtravelfinder.com/privacy",
-  "icon": "./.claude-plugin/icon.png"
+  "version": "1.3.1"
 }

@@ -149,6 +149,7 @@ mcp/
     plugin.json          # Plugin metadata
     marketplace.json     # Marketplace listing
   .mcp.json              # MCP server connection config
+  .codex-mcp.json        # MCP server connection config for the Codex plugin
   logo.png               # 400x400 marketplace logo
   llms-install.md        # Agent-readable setup steps
   commands/
@@ -168,6 +169,7 @@ The MCP server itself is a hosted service at `mcp.awardtravelfinder.com`; this r
 - [Award Travel Finder](https://awardtravelfinder.com) — the web app
 - [Setup guides for every client](https://awardtravelfinder.com/mcp)
 - [Transfer bonus tracker](https://awardtravelfinder.com/transfer-bonuses)
+- [Privacy policy](https://awardtravelfinder.com/privacy)
 
 ## Support
 
