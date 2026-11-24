@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "awardtravelfinder": {
+      "type": "http",
+      "url": "https://mcp.awardtravelfinder.com/mcp",
+      "oauth_resource": "https://mcp.awardtravelfinder.com/mcp"
+    }
+  }
+}

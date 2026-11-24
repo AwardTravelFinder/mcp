@@ -1,6 +1,9 @@
 ---
 description: Compare loyalty program award charts and rates
 argument-hint: "[program1] [program2] ..."
+allowed-tools:
+  - mcp__awardtravelfinder__get_program_rates
+  - mcp__awardtravelfinder__get_pricing
 ---
 
 # Compare Loyalty Programs
