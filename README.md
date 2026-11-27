@@ -135,7 +135,7 @@ British Airways, Qatar Airways, Cathay Pacific, Virgin Atlantic, Iberia, Emirate
 | `get_portfolio` / `list_points_balances` | Your tracked balances |
 | `add_flight_booking` / `list_flight_bookings` | Your trip log |
 
-Run `tools/list` against the endpoint for the full catalogue — it answers without authentication, so you can inspect the server before signing in.
+Run `tools/list` against the endpoint for the full catalogue. Clients must complete sign-in (OAuth) before tools load. After connecting, sign in when prompted. If tools don't appear, remove the connector, add it again, and complete sign-in.
 
 ## Repository structure
 

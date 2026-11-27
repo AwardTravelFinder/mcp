@@ -53,8 +53,9 @@ the user reports that symptom, the fix is to delete the header from their config
 
 ## 3. Verify before handing back
 
-Call `tools/list`. It answers **without authentication**, so you can confirm the
-connection works before the user signs in. A healthy server returns ~86 tools.
+Clients must complete sign-in (OAuth) before tools load. After connecting, sign
+in when prompted, then call `tools/list`. A healthy server returns ~86 tools.
+If tools don't appear, remove the connector, add it again, and complete sign-in.
 
 Then have the user run one real query, for example:
 
